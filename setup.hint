@@ -1,5 +1,5 @@
 category: Audio OCaml
-requires: cygwin libogg0 ocaml
+requires: libogg0 ocaml
 sdesc: "OCaml libogg bindings"
 ldesc: "This package contains an O'Caml interface for Ogg Bitstream 
 Library, otherwise known as libogg."
