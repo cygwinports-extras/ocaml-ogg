@@ -1,5 +1,5 @@
 category: Audio OCaml
-requires: libgcc1 libogg0 libogg-devel ocaml
+requires: libogg0 libogg-devel ocaml-base
 sdesc: "OCaml libogg bindings"
 ldesc: "This package contains an O'Caml interface for Ogg Bitstream 
 Library, otherwise known as libogg."
