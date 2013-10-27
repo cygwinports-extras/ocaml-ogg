@@ -1,0 +1,18 @@
+inherit ocaml
+
+NAME="ocaml-ogg"
+VERSION=0.4.3
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="OCaml libogg bindings"
+DESCRIPTION="This package contains an O'Caml interface for Ogg Bitstream
+Library, otherwise known as libogg."
+HOMEPAGE="http://savonet.sourceforge.net/"
+SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake -j1
+}
