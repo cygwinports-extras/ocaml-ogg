@@ -1,7 +1,7 @@
 inherit ocaml
 
 NAME="ocaml-ogg"
-VERSION=0.4.3
+VERSION=0.4.5
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="OCaml libogg bindings"
